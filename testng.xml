@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+    <!--><listeners>
+        <listener class-name="seleniumproject.listeners.CustomTestListener"/>
+    </listeners>
+    <!--><test name="FirefoxTest">
+
+        <parameter name="browser" value="firefox"/>
+
+        <classes>
+            <class name="seleniumproject.pages.CatalogSearchTest"/>
+            <class name="seleniumproject.pages.ExchangeTest"/>
+            <class name="seleniumproject.pages.LoginTest"/>
+            <class name="seleniumproject.pages.RegistrationTest"/>
+        </classes>
+
+    </test>
+    <test name="ChromeTest">
+
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="seleniumproject.pages.CatalogSearchTest"/>
+            <class name="seleniumproject.pages.ExchangeTest"/>
+            <class name="seleniumproject.pages.LoginTest"/>
+            <class name="seleniumproject.pages.RegistrationTest"/>
+        </classes>
+
+    </test>
+
+</suite>
